@@ -20,3 +20,6 @@ def reduce_to_total(arr, start = 0)
   return arr.reduce(start) { |prev, cur| prev + cur }
 end
 
+def reduce_to_all_true(arr)
+  return arr.reduce(false) {|prev, cur| return prev ? prev : cur}
+end
