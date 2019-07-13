@@ -7,3 +7,7 @@ end
 def map_to_no_change(arr)
   return arr.map{|i| i}
 end
+
+def map_to_double(arr)
+  return arr.map{|i| i * 2}
+end
