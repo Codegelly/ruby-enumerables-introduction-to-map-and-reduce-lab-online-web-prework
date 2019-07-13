@@ -21,5 +21,5 @@ def reduce_to_total(arr, start = 0)
 end
 
 def reduce_to_all_true(arr)
-  return arr.reduce(false) {|prev, cur| prev && cur }
+  return arr.reduce(true) {|prev, cur| prev && cur }
 end
