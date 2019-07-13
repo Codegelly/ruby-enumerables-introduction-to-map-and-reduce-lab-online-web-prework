@@ -23,3 +23,8 @@ end
 def reduce_to_all_true(arr)
   return arr.reduce(true) {|prev, cur| prev && cur }
 end
+
+def reduce_to_any_true(arr)
+  return arr.reduce(true) {|prev, cur| prev || cur }
+end
+
