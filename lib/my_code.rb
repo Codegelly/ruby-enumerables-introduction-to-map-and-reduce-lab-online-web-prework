@@ -25,6 +25,6 @@ def reduce_to_all_true(arr)
 end
 
 def reduce_to_any_true(arr)
-  return arr.reduce(0) {|prev, cur| prev += !!cur ? 1 : 0 }
+  return arr.reduce(0) {|prev, cur| prev += !!cur ? 1 : 0 } > 0
 end
 
