@@ -15,3 +15,7 @@ end
 def map_to_square(arr)
   return arr.map{|i| i * i}
 end
+
+def reduce_to_total(arr)
+  return arr.reduce(0) { |prev, num| sum + num }
+end
