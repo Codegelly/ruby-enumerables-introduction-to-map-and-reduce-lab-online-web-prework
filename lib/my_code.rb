@@ -3,7 +3,7 @@ def map_to_negativize(source_array)
     if i > 0
       i = -i
     end
-    return i
+    i = i
   }
 end
 
